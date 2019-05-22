@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://wikipedia.com/static/favicon/wikipedia.ico">
+		<title>Eric Lau Contact Page Page</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<header class="page-header">
+			<nav class="page-header_item">
+				<img src="http://via.placeholder.com/200x70" alt="logo" >
+				<p>Eric Lau</p>
+				<div>
+					<ul role="menubar" class="navigation-list">
+    					<li role="presentation">
+      						<a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+    					</li>
+    					<li role="presentation">
+      						<a href="about.html" role="menuitem" class="navigation-list__item navigation-list__item--active">About</a>
+    					</li>
+    					<li role="presentation">
+      						<a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+    					</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div>
+				<h1>Contact:</h1>
+
+				<div>
+					1909 Ala Wai Blvd<br> 
+					Honolulu, Hawaii<br> 
+					96815<br> 
+					United States<br>
+					<br> 
+					(TEL +808-465-6655)<br>
+					<a href="mailto:yasuyo369@gmail.com">Email Contact</a>
+				</div>
+				<div>
+					<form action="" method="post" id="contact-form">
+						<label class="standard-label" for="contact-email">Email: </label>
+						<input type="email" id="contact-email"required>
+
+						<label class="standard-label" for="contact-telephone">Telephone: </label>
+						<input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+						<label class="standard-label" for="text-area">Message:</label>
+						<textarea maxlength="240" id="text-area"required></textarea>
+
+						<input type="submit" value="Send Message">
+					</form>
+				</div>
+		</div>
+			<footer class="page-footer">
+				<div>
+					<p>Find me on</p>
+					<a href="https://github.com/elau369">
+						<img src="img/github.svg" alt="Image of Github Logo">
+					</a>
+					<a href="#">
+						<img src="img/twitter.svg" alt="Image of Twitter Logo">
+					</a>
+					<a href="#">
+						<img src="img/linkedin.svg" alt="Image of LinkedIn Logo">
+					</a>
+				</div>
+			</footer>
+		<script src="js/tota11y.min.js"></script>
+
+	</body>
+</html>
