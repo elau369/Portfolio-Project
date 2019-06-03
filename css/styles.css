@@ -2,27 +2,20 @@
     --primary-color: #357b70;
     --secondary-color: #e0b354;
     --dark-grey: #2b2b2b;
-
     --a-visited-color:  #05676e;
     --a-active-color: #489c79;
-
     --button-color: white;
     --button-bg-color: #357b70;
     --button-border-bottom: rgba(0, 0, 0, 0.3);
     --button-secondary-bg-color: #e0b354;
     --button-secondary-color:  #2b2b2b; 
-
     --grid-item-bgcolor: burlywood;
-
-    --keyframes-color1: #edc655;
-    --keyframes-color2: #fcffad;
-    --keyframes-color3: #f76414;
-
+    --k-color1: #edc655;
+    --k-color2: #fcffad;
+    --k-color3: #f76414;
     --display-i: inline-block;
     --display-f: flex;
-
     --f-weight: 700;
-
     --text-deco: none;
     --m: 0 auto;
     --clear: both;
@@ -48,16 +41,14 @@ h3{
     font-weight: var(--f-weight);}
 a{
     color: var(--primary-color);
-    /* visited link */
-    :visited {
+    }
+ /* visited link */
+    a:visited {
     color: var(--a-visited-color);}
-     /* No underlining when hovering over a link */
-    :hover, :focus{
+    a:active {
+    color: var(--a-active-color);}
+    a:hover, :focus{
     text-decoration: var(--text-deco);}
-    /* selected link */
-    :active {
-    color: var(--a-active-color);}}
-
 .globe{
     height: 15%;
     width: 15%;
@@ -190,11 +181,11 @@ button:focus,
 
 @keyframes color-change {
     0% {
-      fill: var(--keyframes-color1);}
+      fill: var(--k-color1);}
     50% {
-      fill: var(--keyframes-color2);}
+      fill: var(--k-color2);}
     100% {
-      fill: var(--keyframes-color3);}
+      fill: var(--k-color3);}
   }
 @keyframes cloud-move{
     from{

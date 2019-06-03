@@ -19,18 +19,16 @@ h3{
     font-weight: 700;}
 a{
     color: #357b70;
-    /* visited link */
-    :visited {
+    }
+ /* visited link */
+    a:visited {
     color: #05676e;}
-     /* No underlining when hovering over a link */
-    :hover{
+    a:active {
+    color: #489c79;}
+    a:hover{
     text-decoration: none;}
     :focus{
     text-decoration: none;}
-    /* selected link */
-    :active {
-    color: #489c79;}}
-
 .globe{
     height: 15%;
     width: 15%;
